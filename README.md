@@ -6,7 +6,27 @@ Bunch of personal stuff. Prob missing some stuff but good enough.
 
 ### CS Foundation
 
-This is all over the place, but stuff you should know.
+All over the place...
+
+#### Language stuff
+- interpreted vs compiled
+- high-level vs low-level
+- general-purpose vs specific purpose languages
+- objected oriented vs functional
+- imperative vs declarative
+- multi-paradigm
+- know basic programming
+  - data structures
+  - algorithms
+  - writing clean code
+  - how to write tests
+
+#### Web Development
+- HTML, CSS, JS
+- jQuery
+- DOM
+- Requests
+- WebAssembly
 
 #### Operating Systems
 - Application
@@ -32,7 +52,7 @@ This is all over the place, but stuff you should know.
 - Public, private, static
 - Factory, Builder, ew
 
-#### Login Stuff
+#### Auth Stuff
 - OAUTH 2
 - OpenID
 - SAML
@@ -40,6 +60,11 @@ This is all over the place, but stuff you should know.
 - LDAP and Active Directory
 - SSO
 - AuthN and AuthZ
+
+#### Access Control
+- Permissions
+- RBAC
+- ABAC
 
 #### API
 - JSON vs XML
@@ -58,10 +83,27 @@ This is all over the place, but stuff you should know.
 - Port Numbers (esp. < 100)
 - Latency numbers (https://gist.github.com/hellerbarde/2843375)
 
+#### Theory
+- Automata Theory
+- DFA, NFA
+- Regular languages
+- Context-free languages
+- PDA
+- Halting Problem
+- Turing Machines
+- P vs NP
+
 #### Caches
 - terminologies: block, line, set, tag, valid bit
 - types of caches (L1, L2, L3)
 - eviction policies (FIFO, LIFO, LRU, etc)
+
+#### Low-Level Stuff
+- pointers, addresses
+- memory management
+- segfault
+- Assembly (ptsd)
+- CPU and RAM
 
 #### Datastores
 ACID

@@ -82,7 +82,7 @@ for index, item in enumerate(nums):
     print index, item
 ```
 
-### DICTS
+## DICTS
 
 my_dict = {
   "brand": "Ford",
@@ -90,44 +90,44 @@ my_dict = {
   "year": 1964
 }
 
-## GET
+### GET
 ```
 my_dict.get('brand')
 ```
 
-## SET
+### SET
 ```
 my_dict['name'] = 'nuts'
 ```
 
-## KEYS
+### KEYS
 ```
 my_dict.keys()
 ```
 
-## VALUES
+### VALUES
 ```
 my_dict.values()
 ```
 
-## LOOP
+### LOOP
 ```
 for key, value in my_dict.items():
     print key, value
 ```
 
-## EXIST
+### EXIST
 ```
 'brand' in my_dict => True
 'test' in my_dict => False
 ```
 
-## LENGTH
+### LENGTH
 ```
 len(my_dict)
 ```
 
-## CLEAR
+### CLEAR
 ```
 my_dict.clear()
 ```

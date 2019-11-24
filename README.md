@@ -21,20 +21,46 @@ All over the place...
   - writing clean code
   - how to write tests
 
+#### Algorithms and Datastructures
+- O(n), runtimes, Master's Theorem
+- Sorting (quick sort, merge sort, bubble sort, etc)
+- DFS, BFS
+- Greedy
+- Dynamic Programming (log cutter, knapsack)
+- Minimum Spanning tree
+- Kruskals Algorithm
+- Prims Algorithm
+- Bellman-Ford
+- Edmonds-Karp
+- Bipartite Matching
+
 #### Web Development
 - HTML, CSS, JS
 - jQuery
 - DOM
 - Requests
 - WebAssembly
+- WebSockets
+
+#### System Design
+- Load Balancing
+- Caching
+- Data partioning and sharding
+- Proxies
 
 #### Operating Systems
 - Application
 - Kernel
 - Devices
+- TODO: ??
 
 #### Compilers
 - TODO: how they work
+
+#### Mobile Development
+- iOS: Objective-C and Swift. Xcode used a lot
+- Android: Kotlin (Java), and other
+- TODO: ??
 
 #### Concurrency
 - Processes
@@ -76,6 +102,7 @@ All over the place...
 
 #### Networking and Distributed Systems
 - 8 Fallacies of Distributed System
+- CAP Theorem
 - TCP vs UDP
 - TLS vs SSL
 - Reverse DNS
@@ -113,41 +140,52 @@ ACID
 - Durability: commited and there even if outage
 
 ##### SQL
-- Oracle, MySQL, MariaDB, PostgreQL, MSSQL
+- Index
+- N+1 queries
+- Examples: Oracle, MySQL, MariaDB, PostgreQL, MSSQL
 
 ##### NoSQL
-- Redis, MongoDB, Cassandra, CouchDB
+- Use cases
+- Examples: Redis, MongoDB, Cassandra, CouchDB
 
-### TO LEARN
+#### Cloud Computing
+- SAAS, PAAS, IAAS
+- AWS, Azure, GCP
+- Scalability (horizonal vs vertical)
+- Pricing
+- Public vs Private
+- On-Prem
+
+## TO LEARN
 
 Read and understand more about these things
 
-#### Languages to play with
+### Languages to play with
 - Python3 (more)
 - Go
 - Kotlin
 - Rust
 
-#### Frameworks to play with
+### Frameworks to play with
 - Django
 - Flask
 - Pyramid
 - Phoenix
 
-#### Message Brokwers
+### Message Brokwers
 - Kafka
 - RabbitMQ
 
-#### Caching
+### Caching
 - Review cache basics
   - Types
   - LRU
 - Memcached
 
-#### Web servers
+### Web servers
 - Apache
 - Nginx
 
-#### Devops tools
+### Devops tools
 - Ansible
 - Terraform

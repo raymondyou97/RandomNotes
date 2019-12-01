@@ -24,6 +24,12 @@
 | Replace All Occurrences   | :%s/original/replacement/gc |
 | Place Bookmark   | M + 1-9 |
 | Go To Bookmark   | ` + 1-9 |
+| Go To Definition | gd |
+| Go To Definition (CTAGS) | CTRL + ] |
+| Go Back (CTAGS) | CTRL + T |
+| Open Definition Horizontal Split (CTAGS) | CTRL + W, CTRL + ] |
+| Open Definition Vertical Split (CTAGS) | ALT + ] |
+| Open Definition New Tag (CTAGS) | CTRL + \ |
 
 ### Nerdtree
 
@@ -83,8 +89,8 @@
 | Kill All | ` + & |
 | Split Horizontal | ` + " |
 | Split Vertical | ` + % |
-| Switch to another pane | ` + h,j,k,l |
-| Resize Pane | ALT + h,j,k,l |
+| Switch to another pane | ` + h, j, k, l |
+| Resize Pane | ALT + h, j, k, l |
 | Focus Pane | ` + Z |
 | Close Pane | ` + X |
 | Rename | ` + $ |

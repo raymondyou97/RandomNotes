@@ -93,3 +93,6 @@
 | Detach | ` + D |
 | Attach | tmux attach -t my_session |
 | Kill Session | tmux kill-session -t my_session |
+| Enter Scroll Mode | ` + PgUp |
+| Scroll  Up | &uarr; |
+| Scroll  Down | &darr; |

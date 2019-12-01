@@ -73,7 +73,7 @@
 | Previous Tab     | Ctrl + PgUp      |
 | Split Horizontal | Ctrl + Shift + O |
 | Split Vertical   | Ctrl + Shift + E |
-| Move Around Terminals | ALT + UP,DOWN,LEFT,RIGHT |
+| Move Around Terminals | ALT + &uarr; , &darr; , &larr; , &rarr; |
 
 ## Tmux
 

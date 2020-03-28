@@ -9,6 +9,7 @@ All over the place...
 - objected oriented vs functional
 - imperative vs declarative
 - multi-paradigm
+- garbage collectors
 - know basic programming
   - data structures
   - algorithms
@@ -46,7 +47,8 @@ All over the place...
 - Application
 - Kernel
 - Devices
-- TODO: ??
+- x86 (Intel)
+- ARM (AMD)
 
 #### Compilers
 - TODO: how they work
@@ -95,16 +97,19 @@ All over the place...
 - OpenAPI
 
 #### Networking and Distributed Systems
+- OSI Model
+- Cryptography Usage
 - 8 Fallacies of Distributed System
 - CAP Theorem
 - TCP vs UDP
 - TLS vs SSL
-- Reverse DNS
+- DNS
 - IPv4 vs IPv6
 - Port Numbers (esp. < 100)
 - Latency numbers (https://gist.github.com/hellerbarde/2843375)
+- Raft Paper (https://raft.github.io/raft.pdf)
 
-#### Theory
+#### Theory of Computations
 - Automata Theory
 - DFA, NFA
 - Regular languages
@@ -113,6 +118,18 @@ All over the place...
 - Halting Problem
 - Turing Machines
 - P vs NP
+- Squeeze Theorem
+- Alan Turing, Alonzo Church
+
+#### Theory of Programming Languages
+- Backus-Naur form
+- Lazy vs eager langauges
+- bindings and substitutions
+- higher-order function
+- first-class function
+- de Brujin indexes
+- dynamic vs lexical scopes
+- Y Combinator (lambda calculus)
 
 #### Caches
 - terminologies: block, line, set, tag, valid bit
@@ -120,10 +137,11 @@ All over the place...
 - eviction policies (FIFO, LIFO, LRU, etc)
 
 #### Low-Level Stuff
-- pointers, addresses
+- pointers, addresses, references
 - memory management
 - segfault
-- Assembly (ptsd)
+- linker
+- Assembly
 - CPU and RAM
 
 #### Datastores

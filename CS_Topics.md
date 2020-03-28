@@ -1,6 +1,6 @@
-## CS Foundation
+## CS Topics
 
-All over the place...
+All over the place
 
 #### Language stuff
 - interpreted vs compiled

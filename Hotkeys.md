@@ -6,7 +6,6 @@
 |------------------|------------------|
 | Horizontal          | Ctrl + W + N |
 | Vertical        | Ctrl + W + V |
-| Close Buffer         | Ctrl + Q    |
 | Close All Tabs     | :qq      |
 | Up Half | Ctrl + U |
 | Down Half   | Ctrl + D |
@@ -18,6 +17,7 @@
 | Next Word   | W |
 | Previous Word   | B |
 | Insert End   | A |
+| Insert Beginning   | I |
 | New Line Below   | o |
 | New Line Above   | O |
 | Delete Word   | dw |
@@ -30,6 +30,12 @@
 | Open Definition Horizontal Split (CTAGS) | CTRL + W, CTRL + ] |
 | Open Definition Vertical Split (CTAGS) | ALT + ] |
 | Open Definition New Tag (CTAGS) | CTRL + \ |
+| Paste Mode | F2 |
+| Leader Key | \ |
+| Clear Search Results | Esc Esc |
+| Split Navigation | CTRL + H J K L |
+| Git Blame | Leader + s |
+
 
 ### Nerdtree
 
@@ -60,45 +66,56 @@
 
 | Command          | Key              |
 |------------------|------------------|
-| Open          | Ctrl + P |
+| Open FZF          | Ctrl + P |
 | Open in directory        | :FZF ~ |
-
-## Terminator
-
-| Command          | Key              |
-|------------------|------------------|
-| New Tab          | Ctrl + Shift + T |
-| Close Tab        | Ctrl + Shift + W |
-| Next Tab         | Ctrl + PgDown    |
-| Previous Tab     | Ctrl + PgUp      |
-| Split Horizontal | Ctrl + Shift + O |
-| Split Vertical   | Ctrl + Shift + E |
-| Move Around Terminals | ALT + &uarr; , &darr; , &larr; , &rarr; |
+| Up | Ctrl + P |
+| Down | Ctrl + N |
+| New Tab | Ctrl + T |
+| Horizontal | Ctrl + X |
+| Vertical | Ctrl + V |
+| Mark Multiple Files To Open | Tab |
 
 ## Tmux
 
 | Command          | Key              |
 |------------------|------------------|
 | Prefix | ` +  |
-| New Tab | ` + C |
-| Prev Tab | ` + P |
-| Next Tab | ` + N |
-| Go to Tab # | ` + 0-9 |
+| New Window | ` + C |
+| Prev Window | ` + P |
+| Next Window | ` + N |
+| Go to Window # | ` + 0-9 |
 | Choose From List | ` + W |
-| Exit Tab | exit |
+| Exit | exit |
 | Kill All | ` + & |
 | Split Horizontal | ` + " |
 | Split Vertical | ` + % |
 | Switch to another pane | ` + h, j, k, l |
-| Resize Pane | ALT + h, j, k, l |
+| Resize Pane | ` + h, j, k, l |
 | Focus Pane | ` + Z |
 | Close Pane | ` + X |
-| Rename | ` + $ |
+| Rename Session | ` + $ |
+| Rename Window | ` + , |
 | Help | ` + ? |
 | Dif. Layout | ` + SPACE |
 | Detach | ` + D |
 | Attach | tmux attach -t my_session |
 | Kill Session | tmux kill-session -t my_session |
 | Enter Scroll Mode | ` + PgUp |
-| Scroll  Up | &uarr; |
-| Scroll  Down | &darr; |
+| Scroll Up | &uarr; |
+| Scroll Down | &darr; |
+
+## Ripgrep
+
+### In Vim
+
+| Command          | Key              |
+|------------------|------------------|
+| Open | Space  |
+| Open Full Screen | \ + Space |
+| Preview file | ? |
+| Up | Ctrl + P |
+| Down | Ctrl + N |
+| New Tab | Ctrl + T |
+| Horizontal | Ctrl + X |
+| Vertical | Ctrl + V |
+| Mark Multiple Files To Open | Tab |
